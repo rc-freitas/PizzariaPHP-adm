@@ -1,0 +1,106 @@
+/*Informações superior*/
+.menu-top{
+	background-color: #e12301;
+	margin-top: 0px;
+	padding-top: 10px;
+	color: white;
+}
+.menu-top span{
+	right: 5px;
+}
+/*Itens da esquerda*/
+.top-esq{
+	float: left;
+}
+.top-esq ul{
+	margin-left: 60px;
+	list-style: none;
+}
+.top-esq ul li{
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 10px;	
+}
+.top-esq ul li span{
+	color: #00B2EE;
+}
+/*Itens da direita*/
+.top-dir{
+	float: right;
+	margin-right: 60px;
+}
+.top-dir ul{
+	list-style: none;
+}
+.top-dir ul li{
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 10px;
+}
+.top-dir ul li a{
+	color: white;
+	text-decoration: none;
+}
+.top-dir ul li a#fb:hover{
+	color: #475993;
+}
+.top-dir ul li a#tw:hover{
+	color: #00aced;
+}
+.top-dir ul li a#ins:hover{
+	color: #fbad50;
+}
+/*Navbar*/
+.navbar ul li span{
+	color: #00B2EE;
+}
+#btn-entrar-navbar{
+	text-align: center;
+	color: black;
+	font-weight: bolder;
+	border: none;
+	background-color: #00B2EE;
+	padding: 10px 50px 10px 50px;
+	border-bottom: 4px solid #007eee;
+}
+/*Classe que torna o menu fixo*/
+nav.menuFixo {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 999;
+}
+#header{
+    background-image: url('../img/header_home.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#header{
+    margin-bottom: 2em;
+}
+#formulario{
+    width: auto;
+}
+@media screen and (min-width: 768px){
+    #header{
+        height: 600px;
+         height: 60vh;/*Vireport heigth*/
+        justify-content: center;
+    }
+    #formulario{
+    width: 40%;
+}
+}
